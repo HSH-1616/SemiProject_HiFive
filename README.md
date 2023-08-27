@@ -32,7 +32,7 @@
 
 <br>
 
-## 🔎SITE
+## 🌐SITE
 
 ### 배포 사이트 : [HiFive](http://14.36.141.71:10005/semi-hifive/index.jsp)
 
@@ -40,7 +40,7 @@
 
 <br>
 
-## STACKS
+## 💡STACKS
 
 **Back-End**
 
@@ -87,7 +87,7 @@ googlecloud&logoColor=white">
 
 <br>
 
-## MEMBER
+## 🎓MEMBER
 
 ### 🙎‍♂️ 최주영 - 팀장
 
