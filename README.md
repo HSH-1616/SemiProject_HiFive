@@ -11,7 +11,7 @@
 
 </details>
 
-## INFORMATION
+## 📋INFORMATION
 
 <img src="semi-hifive/src/main/webapp/views/common/readme.png"/>
 
@@ -22,7 +22,7 @@
 
 <br>
 
-## MAIN FUNCTION
+## 💻MAIN FUNCTION
 
 - #### 중고 거래 상품 CRUD
 - #### 마이페이지 거래 내역, 회원 정보 관리
@@ -32,7 +32,7 @@
 
 <br>
 
-## SITE
+## 🔎SITE
 
 ### 배포 사이트 : [HiFive](http://14.36.141.71:10005/semi-hifive/index.jsp)
 
