@@ -2,16 +2,12 @@
 
 <details>
  <summary style="font-size:22px; font-weight:500;">INDEX</summary>
-
-> #### INFORMATION
->
-> #### MAIN FUNCTION
->
-> #### SITE
->
-> #### STACKS
->
-> #### MEMBER
+ 
+- [INFORMATION](#information)
+- [MAIN FUNCTION](#main-function)
+- [SITE](#site)
+- [STACKS](#stacks)
+- [MEMBER](#member)
 
 </details>
 
