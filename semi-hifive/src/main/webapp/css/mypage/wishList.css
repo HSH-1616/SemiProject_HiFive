@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+/* 판매상태 뱃지 */
+.PriceNStatus {
+	display: flex;
+	align-items: center;
+}
+
+.statusBtn {
+	color: white;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.statusBtnDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 23px;
+	background-color: #20C997;
+	border-radius: 100px;
+	margin-left: 6px;
+}
+
+/* 판매내역 버튼 div */
+.buttonAll button {
+	position: relative;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	padding: 6px 15px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #8F8F8F;
+	background: transparent;
+	cursor: pointer;
+	transition: ease-out 0.2s;
+	border: 1px solid #8F8F8F;
+	border-radius: 100px;
+}
+
+button:hover {
+	color: white;
+	background-color: #20C997;
+	border: 1px solid #20C997;
+}
+
+button:active {
+	transform: scale(0.9);
+}
+
+button.nowButton {
+	color: white;
+	background-color: #20C997;
+	border: 1px solid #20C997;
+	font-weight: 700;
+}
+
+/* 페이지 버튼 */
+.pageAll {
+	/* border: 1px solid saddlebrown; */
+	/* margin-top: 20px; */
+	margin-bottom: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.page {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.page li {
+	display: inline;
+}
+
+.page li a {
+	color: #313030;
+	float: left;
+	margin: 5px;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.page li a:active {
+	transform: scale(0.9);
+}
+
+.page li a:hover:not(.nowPage) {
+	background-color: #eeeeee;
+	/* color: white; */
+	border-radius: 7px;
+}
+
+.nowPage {
+	background-color: #20C997;
+	border-radius: 7px;
+	color: white !important;
+}
+
+/* 오른쪽 판매내역 section */
+/* 전체 */
+section {
+	display: flex;
+}
+
+.mypageMain {
+	/* border: 1px solid lightcoral; */
+	width: 1050px;
+	height: auto;
+}
+
+.mypageMainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.mypageMainHeader>h3 {
+	display: flex;
+	font-size: 23px;
+	color: #313030;
+}
+
+/* 판매내역 목록 div */
+.productContainer {
+	margin-bottom: 40px;
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.productAll {
+	margin-bottom: 60px;
+	margin-right: 50px;
+}
+
+.product {
+	/* border: 1px solid palevioletred; */
+	width: 300px;
+	height: 410px;
+	/* display: flex;
+            justify-content: space-between; */
+}
+
+.productImg {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #eee;
+}
+
+.product img {
+	width: 300px;
+	height: 300px;
+}
+
+.proContent {
+	padding-top: 9px;
+	padding-left: 3px;
+	width: 300px;
+}
+
+.proContent h3 {
+	font-size: 25px;
+}
+
+.aTag {
+	font-size: 13px;
+	text-decoration: none;
+	color: #313030;
+}
+
+.aTag:hover {
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+.contentMargin {
+	margin-top: 6px;
+	margin-bottom: 15px;
+}
+
+.productTitle {
+	font-size: 21px;
+}
+
+.grayFont {
+	color: #afafaf;
+	font-weight: 400;
+}
+
+.buyDate {
+	padding-right: 7px;
+	display: flex;
+	justify-content: space-between;
+	color: #afafaf;
+	font-size: 12px;
+}
+
+/* 찜하기 버튼 */
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.container {
+	/* display: flex; */
+	position: relative;
+	bottom: 295px;
+	left: 252px;
+	cursor: pointer;
+	font-size: 20px;
+	user-select: none;
+	transition: 100ms;
+	/* width: auto !important;
+    display: inline-block; */
+}
+
+.checkmark {
+	top: 0;
+	left: 0;
+	height: 35px;
+	width: 35px;
+	transition: 100px;
+	animation: dislike_effect 400ms ease;
+}
+
+.container input:checked ~.checkmark path {
+	fill: #FF5353;
+	stroke-width: 0;
+}
+
+.container input:checked ~.checkmark {
+	animation: like_effect 400ms ease;
+}
+
+.container:hover {
+	transform: scale(1.1);
+}
+
+@keyframes like_effect {
+            0% {
+                transform: scale(0);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes dislike_effect {
+            0% {
+                transform: scale(0);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+}

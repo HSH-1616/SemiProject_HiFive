@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* ****알림창**** */
+.notification {
+	width: 1050px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.notiRead {
+	text-decoration: none;
+	color: #ccc !important;
+	font-weight: 400 !important;
+}
+
+.notification>a {
+	text-decoration: none;
+	color: #474747;
+	font-weight: 700;
+}
+
+.notiDate {
+	color: #8F8F8F;
+	font-size: 14px;
+}
+
+/* *****메인프로필***** */
+.profileMain {
+	display: flex;
+	align-items: center;
+	border: #d5d5d5 1px solid;
+	border-radius: 30px;
+	box-shadow: 1px 1px #f2f2f2;
+	width: 1050px;
+	height: 300px;
+	margin-bottom: 50px;
+}
+
+.profileInfo {
+	display: flex;
+	align-items: center;
+}
+
+/* 성사된 거래 */
+.countTrade {
+	width: 250px;
+}
+
+.countTrade h3 {
+	text-align: center;
+	padding-bottom: 3px;
+}
+
+.countTrade span {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.countTradeInfo {
+	display: flex;
+	justify-content: center;
+}
+
+.countTradeInfo h4 {
+	padding-top: 30px;
+	padding-left: 3px;
+}
+
+/* 닉네임, 온도, 가입일 */
+.nameNdate {
+	margin-left: 25px;
+	width: 540px;
+	height: 48px;
+}
+
+/* 닉네임, 온도 */
+.profileName {
+	display: flex;
+	align-items: center;
+}
+
+.temperature {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #20c997;
+	border-radius: 50px;
+	width: 84px;
+	height: 25px;
+	margin-left: 5px;
+}
+
+.orangeTem{
+	background-color: orange;
+}
+
+.remTem{
+	background-color: red;
+}
+
+.temperature>h4 {
+	color: white;
+	font-size: 17px;
+}
+
+/* 가입일 */
+.enrollDate {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.enrollDate>h4 {
+	color: #20C997;
+	padding-right: 5px;
+}
+
+.enrollDate>span {
+	color: #8F8F8F;
+	font-size: 15px;
+}
+
+/* 오른쪽 구매내역 section */
+/* 전체 */
+section {
+	display: flex;
+}
+
+.mypageMain {
+	/* border: 1px solid lightcoral; */
+	width: 1050px;
+	height: auto;
+}
+
+.mypageMainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.mypageMainHeader>h3 {
+	font-size: 23px;
+	color: #313030;
+}

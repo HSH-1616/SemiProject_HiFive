@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* 뒤로가기 버튼 */
+.backBtn{
+    width: 90px;
+    height: 30px;
+    background-color: #adadad;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
+/* 제목 부분 */
+div.contentTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 글 본문 */
+div.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    width: 1050px;
+    height: 800px;
+    overflow: auto;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+}
+/* 본문 글 상단에 작성자, 작성일 */
+div.contentTop{
+    display: flex;
+    justify-content: space-between;
+}
+div.contentTop>p{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* 댓글 작성 버튼 부분 */
+.commentBtn{
+    width: 100px;
+    height: 50px;
+    background-color: #20C997;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    cursor: pointer;
+}
+.commentBtn:after{
+    content: "";
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.commentBtn:hover:after{
+    animation: ripple_401 1s ease-out;
+}
+@keyframes ripple_401 {
+    0% {
+        width: 5px;
+        height: 5px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+}
+/* 대댓글 버튼 부분 */
+.recommentBtn{
+    width: 80px;
+    height: 25px;
+    background-color: #c2c3c3;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    cursor: pointer;
+}
+
+/* 댓글 작성 부분 */
+div.commentWrite{
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+/* 댓글 textarea */
+.commentWrite>textarea{
+    padding: 7px;
+    resize: none;
+}
+/* 댓글 부분 */
+div.comment{
+    margin-bottom: 20px;
+}
+div.commentTop{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+div.commentContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+/* 본인 댓글인 경우 보이는 수정, 삭제 */
+div.commentUpdate{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+/* 댓글 수정, 삭제 */
+div.commentUpdate>button{
+    text-decoration: none;
+    font-weight: 700;
+    color: gray;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 0;
+  	background-color: transparent;
+    cursor: pointer;
+}
+div.commentUpdate>button:hover{
+    color: black;
+}
+
+/* 대댓글 부분 */
+div.recomment{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+/* 대댓글 작성 부분 */
+div.comment>.commentWrite{
+    margin-left: 30px;
+}
+
+/* 댓글 수정 버튼 */
+.updateCommentData{
+	width: 80px;
+    height: 40px;
+    background-color: #20C997;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    cursor: pointer;
+}

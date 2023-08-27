@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+
+        body>form{
+
+            display: flex;
+            flex-direction: column;
+
+            padding: 0;
+            margin: 0;
+            /* background-color: blue; */
+        }
+        
+    
+        /*  로그인 전체 박스 중앙정렬 */
+        .container {
+            /* background-color: aqua; */
+            min-height: 600px;
+            height: 100%;
+            /* width: 400px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 48px;
+        }
+
+        /* 약관동의, 회원정보를 입력해주세요 글씨 */
+        .container>p {
+
+            font-size: x-large;
+        }
+
+        /* <!-- 약관동의 밑 네모 --> */
+        .TandC {
+            margin-top: 15px;
+            border: 1px solid gray;
+            padding: 16px;
+            border-radius: 15px;
+        }
+
+        /* 약관 동의서들  */
+        .TandC>div {
+
+            padding:10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* 약관 간단 설명에서 (필수)  */
+        .TandC strong {
+
+            color: red;
+
+        }
+
+        /* 약관 상세보기 버튼  */
+        .TandC button {
+
+            background-color: transparent;
+            border: transparent;
+            text-decoration: underline;
+            margin: 10px;
+        }
+
+        /* 약관 상세보기 버튼 hover */
+        .TandC button:hover {
+            cursor: pointer;
+        }
+
+        /* 회원 정보 박스 */
+        .MemberInfo_box {
+            display: flex;
+            flex-direction: column;
+            width: 420px;
+        }
+
+        .memberinfo{
+            margin-bottom: 10px;
+ 	   }
+        
+
+        /* 입력창 */
+        .MemberInfo_box input {
+            width: 100%;
+            height: 46px;
+            font-size: large;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 15px;
+            border-style: none;
+            border: 1px solid #cccccc;
+            outline: none;
+
+        }
+        
+        		
+        	
+        
+          .MemberInfo_box input:focus { 
+              border: 2px solid #20C997;
+          }
+
+          .MemberInfo_box input:hover {
+              border: 2px solid #20C997;
+          }
+
+        /* 회원정보 각 요소 박스(입력창+텍스트) */
+        .MemberInfo_box>div {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .MemberInfo_box p {
+            margin: 0;
+            padding: 0;
+            display: none;
+        }
+
+        /* 회원정보 글씨 */
+        .MemberInfo_box p {
+            margin: 0;
+            padding: 0;
+            display: none;
+        }
+
+        
+        /* 회원정보 안의 placeholder 스타일 변경 */
+        .MemberInfo_box input::-webkit-input-placeholder {
+            font-size: 17px;
+            color: #9fa19f;
+            /* text-indent: 20px; */
+        }
+
+        /* 회원가입창 버튼 스타일 변경 */
+        .MemberInfo_box div>button{
+            background-color: #20c997;
+            border: 1px solid #20c997 !important;
+            width: 100%;
+            height: 46px;
+            border-radius: 15px;
+            font-weight: 700;
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .MemberInfo_box div>button:hover{
+            background-color: white;
+            border: 1px solid #20c997 !important;
+            width: 100%;
+            height: 46px;
+            border-radius: 15px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #20c997;
+            
+        }
+
+
+        .email{
+            display: flex;
+        }
+
+        /* 이메일인증 버튼 스타일 */
+        .email>div{
+            margin-right: -200px;
+            width: 150px;
+            border-radius: 15px;
+            font-size: 18px;
+        }
+
+        /* 이메일인증버튼의 글씨 가운데정렬하기 위해서 설정 */
+        .email>div>input{
+            line-height: 10%;
+            background-color: #20c997;
+            border: 1px solid #20c997 !important;
+            color: white;
+            cursor: pointer;
+        }
+        
+        
+        
+        .id{
+            display: flex;
+        }
+
+        /* 중복확인 버튼 스타일 */
+        .id>div{
+            margin-right: -200px;
+            width: 150px;
+            border-radius: 15px;
+            font-size: 18px;
+        
+        }
+
+        /* 중복확인버튼의 글씨 가운데정렬하기 위해서 설정 */
+        .id>div>input{
+            line-height: 10%;
+            background-color: #20c997;
+            border: 1px solid #20c997 !important;
+            color: white;
+            cursor: pointer;
+        }
+
+
+
+        .autNumber{
+            display: flex;
+        }
+
+        /* 이메일인증 버튼 스타일 */
+        .autNumber>div{
+            margin-right: -200px;
+            width: 150px;
+            border-radius: 15px;
+            font-size: 18px;
+        }
+
+        /* 이메일인증버튼의 글씨 가운데정렬하기 위해서 설정 */
+        .autNumber>div>button{
+        	
+        	margin-left:10px;
+            line-height: 10%;
+            background-color: #20c997;
+            border: 1px solid #20c997 !important;
+            color: white;
+            cursor: pointer;
+        }
+        
+/*         
+         .id{
+            display: flex;
+        }
+
+        중복확인 버튼 스타일
+        .id>div{
+            margin-right: -200px;
+            width: 150px;
+            border-radius: 15px;
+            font-size: 18px;
+        
+        } 
+
+        중복확인버튼의 글씨 가운데정렬하기 위해서 설정
+        .id>div>input{
+            line-height: 10%;
+            background-color: #20c997;
+            border: 1px solid #20c997 !important;
+            color: white;
+            cursor: pointer;
+        }
+         */

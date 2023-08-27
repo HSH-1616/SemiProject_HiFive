@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.noSpan{
+	position: relative;
+	top: 90px;
+}
+
+.selectBuyer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+/* 확인, 취소 버튼 */
+.submitBtn {
+	margin-top: 20px;
+}
+
+.submitBtn button {
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: ease-out 0.2s;
+	border-radius: 100px;
+	width: 80px;
+	height: 30px;
+	font-weight:700;
+}
+
+.okBtn:hover {
+	background-color: white;
+	color: #20C997;
+}
+
+.noBtn:hover {
+	background-color: #8F8F8F;
+	color: white;
+}
+
+.submitBtn button:active {
+	transform: scale(0.9);
+}
+
+.okBtn {
+	border: 2px solid #20C997;
+	background-color: #20C997;
+	color: white;
+}
+
+.noBtn {
+	border: 2px solid #8F8F8F;
+	background-color: transparent;
+	color: #8F8F8F;
+}
+
+/* 댓글 목록 */
+.listCon {
+	background-color: #f9f9f9;
+	border-radius: 10px;
+}
+
+.commentList {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: 15px;
+	width: 270px;
+	margin-left: 30px;
+	cursor: pointer;
+	z-index:1;
+}
+
+.commentList p {
+	margin-left: 12px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.profileImg {
+	border: 2px solid #20C997;
+	border-radius: 100px;
+	width: 60px;
+	height: 60px;
+}
+
+.commentList:hover {
+	background-color: #eee;
+}
+
+/* 타이틀 */
+.reviewTitle {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.reviewTitleSpan {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* 말풍선아이콘 */
+.bagIcon {
+	background-color: #20C997;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin-top: 14px;
+}
+
+.hydrated {
+	margin-bottom: 3px;
+}

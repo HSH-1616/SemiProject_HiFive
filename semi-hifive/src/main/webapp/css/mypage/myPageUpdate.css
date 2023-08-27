@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+  .inputText {
+    resize: none;
+    padding-top: 5px;
+    width: 350px;
+	background-color: white;
+	color: #242424;
+	padding-left: 12px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	line-height: 1.15;
+	border: 2px solid #eee;
+  }
+
+/* ****프로필, 닉네임***** */
+.profileImg {
+	border-radius: 300px;
+	border: 1px solid #eee;
+}
+
+.infoMem {
+	display: flex;
+	align-items: center;
+}
+
+/* 소개글 */
+.introduceSpan{
+	padding-left: 10px;
+}
+
+/* 프로필 수정 input */
+.profileUPdateInput {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.profilePart {
+	width: 150px;
+}
+
+.profilePart h4 {
+	margin-left: 10px;
+	margin-right: 15px;
+	font-size: 17px;
+}
+
+.inputCssReadOnly {
+	width: 350px;
+	background-color: #eee;
+	color: #242424;
+	padding-left: 12px;
+	height: 30px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	line-height: 1.15;
+	border: 2px solid #eee;
+}
+
+.inputCss {
+	width: 350px;
+	background-color: white;
+	color: #242424;
+	padding-left: 12px;
+	height: 30px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	line-height: 1.15;
+	border: 2px solid #eee;
+}
+
+.inputCss:focus {
+	border: 2px solid #20C997;
+}
+
+.inputCss:hover {
+	border: 2px solid #20C997;
+}
+
+/* 중복확인span */
+.nicknameDuplSpan{
+	padding-left: 10px;
+}
+
+/* 중복확인 버튼 */
+.checkDB {
+	border: 2px solid #20C997;
+	background-color: #20C997;
+	color: white;
+	border-radius: 10px;
+	padding: 6px;
+	margin-left: 5px;
+	transition: ease-out 0.2s;
+}
+
+.checkDB:hover {
+	background-color: white;
+	color: #20C997;
+	cursor: pointer;
+}
+
+.checkDB:active {
+	transform: scale(0.9);
+}
+
+/* 닉네임 + 프로필 사진 수정버튼 */
+.nickNprofileImg {
+	margin-left: 20px;
+}
+
+.profileImgInput {
+	visibility: hidden;
+}
+
+/* 닉네임 */
+.nickname {
+	font-size: 26px;
+}
+
+.nicknameCon {
+	display: flex;
+	align-items: center;
+	margin-bottom: 7px;
+	margin-left: 2px;
+}
+
+.penBtn {
+	border: none;
+	background-color: transparent;
+	margin-left: 5px;
+	margin-top: 2px;
+}
+
+.penIcon {
+	font-size: 23px;
+}
+
+.nicknameInput {
+	display: none;
+}
+
+.nickBtn {
+	margin-left: 8px;
+}
+
+/* 확인, 취소 버튼 */
+.btnEndMargin {
+	margin-bottom: 50px;
+}
+
+.profileButton {
+	width: 100%;
+	align-items: start;
+	display: flex;
+	align-items: top;
+	justify-content: space-between;
+}
+
+.infoBtn>button:first-child{
+	margin-right: 1px;
+}
+
+.profileButton button {
+	position: relative;
+	display: inline-block;
+	margin: 2px;
+	padding: 7px 16px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #8F8F8F;
+	background: transparent;
+	cursor: pointer;
+	transition: ease-out 0.2s;
+	border: 2px solid #8F8F8F;
+	border-radius: 10px;
+}
+
+.profileButton button:hover {
+	color: white;
+	background-color: #8F8F8F;
+}
+
+.profileButton button:active {
+	transform: scale(0.9);
+}
+
+.profileUpdate {
+	background-color: #20C997 !important;
+	color: white !important;
+	border: 2px solid #20C997 !important;
+}
+
+.profileUpdate:hover {
+	background-color: white !important;
+	color: #20C997 !important;
+	border: 2px solid #20C997 !important;
+}
+
+/* 오른쪽 구매내역 section */
+/* 전체 */
+section {
+	display: flex;
+}
+
+.mypageMain {
+	/* border: 1px solid lightcoral; */
+	width: 1050px;
+	height: auto;
+}
+
+.mypageMainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.mypageMainHeader>h3 {
+	font-size: 23px;
+	color: #313030;
+}

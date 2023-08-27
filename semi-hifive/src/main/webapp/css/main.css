@@ -1,0 +1,373 @@
+* {
+	font-family: "NEXON Lv2 Gothic" !important;
+}
+
+body {
+	line-height: normal;
+	font-size: initial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+dl, ol, ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none!important;
+}
+
+hr {
+	margin: 0px;
+}
+
+*, ::after, ::before {
+	box-sizing: inherit;
+}
+
+pre {
+	font-size: inherit;
+	position: relative;
+	right: 50px;
+	white-space: pre-wrap;
+}
+
+p {
+	margin: 0px;
+}
+
+img, svg {
+	vertical-align: unset;
+}
+
+label {
+	margin: 0px;
+}
+
+
+/* 이벤트 베너 부분 */
+.slideContainer {
+	width: 100%;
+	height:420px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.slideTitle {
+    margin: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.slide {
+    display: flex;
+    transition: all 1s;
+}
+/* 이미지 크기 */
+.slide li>img {
+    border-radius: 30px;
+    height: 420px;
+    width: 100%;
+}
+div.btnContainer{
+    position : relative;
+}
+/* 슬라이드 버튼 */
+.btn{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    font-size: 30px;
+    cursor:pointer;
+    color: #313030;
+}
+.prevBtn{
+    position: absolute;
+    top: 180px;
+    left : 10px; 
+}
+.nextBtn{
+    position: absolute;
+    top: 180px;
+    right: 10px;
+}
+
+            /* 배너 */            
+            .bannerImg {
+                border-radius: 20px;
+                height: 420px;
+                width: 100%;
+            }
+
+.banner img{
+	height:450px;
+}
+            /* 카테고리 */
+            .mainCategoryDiv {
+                margin: 15px;
+                margin-top: 30px;
+                margin-bottom: 60px;
+                /* border: 1px solid red; */
+                height: auto;
+                justify-content: space-around;
+                align-items: center;
+            }
+			.cate1{
+				display:flex;
+				justify-content:space-around;
+			}
+			
+			.cate2{
+				margin-top:20px;
+				display:flex;
+				justify-content:space-around;
+			}
+			
+            .categoryLink {
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .categoryBgAll {
+                width: 240px;
+                height: 95px;
+                background-color: #20c994;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .categoryBg {
+                width: 240px;
+                height: 95px;
+                background-color: black;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .categoryBg:hover{
+            	background-color: #20c994;
+            }
+
+            .cateIcon {
+                font-size: 40px;
+                color: white;
+            }
+
+            .spanDiv {
+                display: flex;
+                margin-top: 10px;
+                justify-content: center;
+            }
+
+            .categoryTitle {
+                font-size: 15px;
+                font-weight: 700;
+                color: #313030;
+            }
+            
+            .popularProDiv{
+            margin-top: 50px;
+               margin-bottom: 50px;
+            }
+            
+            /* 상품 제목 + 더보기 버튼 */
+            .proTitle {
+                font-size: 28px;
+                margin-right: 10px;
+            }
+            
+            .proTitleDiv{
+                margin-bottom: 25px;
+                display: flex;
+                align-items: center;
+            }
+
+            .moreBtn{
+                height: 30px;
+                width: 60px;
+                background-color: #dddddd;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+            
+
+            /* 판매상태 뱃지 */
+            .PriceNStatus {
+                display: flex;
+                align-items: center;
+            }
+
+            .statusBtn {
+                color: #20c994;
+                font-weight: 700;
+                font-size: 12px;
+            }
+
+            .statusBtnDiv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 75px;
+                height: 20px;
+                border: 2px solid #20C997;
+                border-radius: 100px;
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+
+            /* 인기상품 목록 div */
+            .productDiv {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+
+            .productContainer {
+                margin-bottom: 40px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .productAll {
+                margin-bottom: 30px;
+            }
+
+            .product {
+                /* border: 1px solid palevioletred; */
+                width: 300px;
+                height: 410px;
+                /* display: flex;
+            justify-content: space-between; */
+            }
+
+            .productImg {
+                width: 300px;
+                height: 300px;
+                border: 1px solid #eee;
+                border-radius:10px;
+            }
+
+            .product img {
+                width: 300px;
+                height: 300px;
+                border-radius:10px;
+            }
+
+            .proContent {
+                padding-top: 9px;
+                padding-left: 3px;
+                width: 300px;
+            }
+
+            .proContent h3 {
+                font-size: 18px;
+            }
+
+            .aTag {
+                font-size: 13px;
+                text-decoration: none;
+                color: #313030;
+            }
+
+            .aTag:hover {
+                text-decoration: underline;
+                text-underline-position: under;
+            }
+
+            .contentMargin {
+                margin-top: 6px;
+                margin-bottom: 15px;
+            }
+
+            .productTitle {
+                font-size: 18px;
+            }
+
+            .grayFont {
+                color: #afafaf;
+                font-weight: 400;
+            }
+
+            /* 찜하기 버튼 */
+            .container input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+                height: 0;
+                width: 0;
+            }
+
+            .container {
+                /* display: flex; */
+                position: relative;
+                bottom: 293px;
+                left: 240px;
+                cursor: pointer;
+                font-size: 20px;
+                user-select: none;
+                transition: 100ms;
+                width: auto !important;
+    			display: inline-block;
+            }
+
+            .checkmark {
+                top: 0;
+                left: 0;
+                height: 35px;
+                width: 35px;
+                transition: 100px;
+                animation: dislike_effect 400ms ease;
+            }
+
+            .container input:checked~.checkmark path {
+                fill: #FF5353;
+                stroke-width: 0;
+            }
+
+            .container input:checked~.checkmark {
+                animation: like_effect 400ms ease;
+            }
+
+            .container:hover {
+                transform: scale(1.1);
+            }
+
+            @keyframes like_effect {
+                0% {
+                    transform: scale(0);
+                }
+
+                50% {
+                    transform: scale(1.2);
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            @keyframes dislike_effect {
+                0% {
+                    transform: scale(0);
+                }
+
+                50% {
+                    transform: scale(1.2);
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }

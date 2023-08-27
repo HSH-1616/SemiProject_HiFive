@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* 고객센터 카테고리부분 고정 css */
+/* 헤더 아래 부분 */
+section {
+  display: flex;
+  height:auto;
+}
+
+.ServiceCenter {
+  width: 1050px;
+  height: auto;
+}
+
+/* 고객센터 메뉴 부분 */
+/* 메뉴 부분 넓이 */
+div.ServiceCenterCategory {
+  width: 220px;
+  height: auto;
+}
+
+/* 고객센터 글씨 */
+div.ServiceCenterCategory>h1 {
+  /* font-size: 24px; */
+  margin-bottom: 20px;
+}
+
+/* 카테고리 글씨 스타일 */
+div.ServiceCenterCategory li{
+  font-size: 18px;
+  padding-top: 20px;
+  color: #313030;
+  font-weight: bolder;
+}
+
+.ServiceCenterCategory label{
+  cursor: pointer;
+}
+
+div.ServiceCenterCategory li:hover {
+  color: #20C997
+}
+
+/* 1:1 문의 페이지 */
+.ServicetHead {
+  font-size: 22px;
+  padding-left: 10px;
+}

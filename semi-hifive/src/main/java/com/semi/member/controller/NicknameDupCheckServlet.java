@@ -1,0 +1,41 @@
+package com.semi.member.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.semi.member.service.MemberService;
+
+@WebServlet("/duplicateNickName.do")
+public class NicknameDupCheckServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+
+    public NicknameDupCheckServlet() {
+        super();
+    }
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try {
+			String userNickName = request.getParameter("userNickName");
+			
+			// 1 , 2 , 3
+			int result = new MemberService().checkNickName(userNickName);
+			
+			response.getWriter().print(result);  // getWriter -> jsp의 data로 들어감
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

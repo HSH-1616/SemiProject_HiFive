@@ -1,0 +1,388 @@
+@charset "UTF-8";
+#shopProfile {
+  width: 1280px;
+  display: flex;
+}
+#shopProfileLeft {
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  background-size: cover;
+}
+#blurImg {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+#blurImg img {
+  width: 350px;
+  height: 350px;
+}
+#userProfile {
+  position: relative;
+  bottom: 330px;
+}
+#userProfile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-top: 35px;
+}
+#userProfile p {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+}
+#userProfile b {
+  margin-left: 10px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+#shopProfileRight {
+  width: 930px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#shopProfileRight p {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+#shopDetail {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+#shopDetail ion-icon {
+  color: #20c997;
+}
+
+#shopDetail span {
+  position: relative;
+  bottom: 5px;
+  color: rgb(165, 165, 165);
+}
+
+#shopDetail b {
+  position: relative;
+  bottom: 5px;
+  margin-right: 50px;
+  /* font-weight: normal; */
+}
+
+#shopIntro {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+#shopMain {
+  margin-top: 40px;
+}
+
+#shopProductContainer {
+  /* display: none; */
+}
+
+.radio-input input {
+  display: none;
+}
+
+.radio-input {
+  --container_width: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* border-radius: 10px; */
+  background-color: #fff;
+  color: #000000;
+  width: var(--container_width);
+  height: 50px;
+  overflow: hidden;
+  border: 1px solid rgba(53, 52, 52, 0.226);
+  border-bottom: 0px;
+}
+
+.radio-input label {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 14px;
+}
+
+.selection {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: calc(var(--container_width) / 2);
+  z-index: 0;
+  left: 0;
+  top: 0;
+  transition: 0.15s ease;
+}
+
+.radio-input label:has(input:checked) {
+  color: #fff;
+}
+
+.radio-input label:has(input:checked) ~ .selection {
+  background-color: #20c997;
+  display: inline-block;
+}
+
+.radio-input label:nth-child(1):has(input:checked) ~ .selection {
+  transform: translateX(calc(var(--container_width) * 0 / 2));
+}
+
+.radio-input label:nth-child(2):has(input:checked) ~ .selection {
+  transform: translateX(calc(var(--container_width) * 1 / 2));
+}
+
+#selectCategory2 {
+  /* border: 1px solid #eeeeee; */
+  width: 1280px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+#selectCategory2 h4 {
+  /* margin-left: 30px; */
+  /* color: #afafaf; */
+  font-weight: bold;
+  font-size: 18px;
+}
+#selectCategory2 span {
+  color: #20c997;
+}
+#categoryFunction span {
+  margin-right: 8px;
+  color: #afafaf;
+}
+#categoryFunction span:hover {
+  color: #20c997;
+  cursor: pointer;
+}
+#categoryFunction span.active{
+  color: #20c997;
+  font-weight: bold;
+}
+
+#productImgContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#pimgWraper {
+  height: 350px;
+  width:20%;
+
+}
+#productImgContainer img {
+  width: 240px;
+  height: 240px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+#pimgWraper a {
+  text-decoration: none;
+}
+#pimgWraper p {
+  position: relative;
+  top: 15px;
+}
+#productName {
+  color: black;
+  font-size: 15px;
+  margin-bottom:10px;
+}
+#productPrice {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom:10px;
+}
+#productPrice span {
+  font-size: 14px;
+  color: #afafaf;
+  margin-left: 15px;
+}
+#productPlace {
+  color: #afafaf;
+  margin-bottom:10px;
+}
+#productPlace ion-icon {
+  position:relative;
+  top:2px;	
+  color: #20c997;
+}
+
+/* 하트 아이콘 */
+.con-like {
+  --red: rgb(255, 50, 100);
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.con-like .like {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.con-like .checkmark {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-like .outline,
+.con-like .filled {
+  fill: var(--red);
+  position: absolute;
+}
+
+.con-like .filled {
+  animation: kfr-filled 0.5s;
+  display: none;
+}
+
+.con-like .celebrate {
+  position: absolute;
+  animation: kfr-celebrate 0.5s;
+  animation-fill-mode: forwards;
+  display: none;
+}
+
+.con-like .poly {
+  stroke: var(--red);
+  fill: var(--red);
+}
+
+.con-like .like:checked ~ .checkmark .filled {
+  display: block;
+}
+
+.con-like .like:checked ~ .checkmark .celebrate {
+  display: block;
+}
+
+@keyframes kfr-filled {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes kfr-celebrate {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+    display: none;
+  }
+}
+
+#reviewContainer {
+  display: none;
+}
+
+#reviewCount {
+  /* border: 1px solid #eeeeee; */
+  width: 1280px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+#reviewCount h4 {
+  /* margin-left: 30px; */
+  /* color: #afafaf; */
+  font-weight: bold;
+  font-size: 18px;
+}
+#reviewCount span {
+  color: #afafaf;
+}
+.shopReview {
+  margin-top: 10px;
+}
+.shopReview hr {
+  margin-top: 30px;
+}
+/* 프로필 사진 */
+.srProfile {
+  display: flex;
+}
+.srProfile img {
+  width: 55px;
+  height: 55px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+/* 댓글작성자 */
+.srUser {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* 댓글 내용 */
+.sr {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+/* 댓글 작성시간 */
+.time {
+  font-size: 13px;
+  color: #afafaf;
+}
+#noRecent{
+	display: grid;
+	justify-content: center;
+}
+#noRecenst h2{
+	margin-left: 50px;
+}
+#noRecent img{
+	margin-top:50px;
+	width: 300px;
+	height: 300px;
+}

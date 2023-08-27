@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.findIdResult>h1{
+	font-size: 28px;
+	margin-left:540px;
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+
+.findIdResultDiv{
+	/* background-color: blue; */
+}
+
+.findIdFlex{
+ 	display: flex;
+ 	justify-content:center;
+ 	align-items: center;
+ 	margin: 100px;
+}
+
+
+.nextButton{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.nextButton>button {
+    width: 15%;
+    height: 46px;
+    box-sizing: border-box;
+    background-color: #20c997;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 40px;
+}
+
+.nextButton>button:hover {
+    width: 15%;
+    height: 46px;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #20c997 !important;
+    color: #20c997;
+    border-style: none;
+    border-radius: 15px;
+}
+

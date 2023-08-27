@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/* *****모달창 스타일***** */
+.modal_delMem {
+	position: absolute;
+	background-color: #fff;
+	border-radius: 20px;
+	width: 350px;
+	height: 250px;
+	padding: 15px;
+}
+
+.modal_delMem button {
+	display: block;
+	width: 80px;
+	margin: 0 auto;
+}
+
+.modal {
+	/* border: #20C997 2px solid; */
+	border-radius: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+
+.modal .bg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hidden {
+	display: none;
+}
+
+.trashIcon {
+	background-color: #20C997;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	position: relative;
+	left: 145px;
+}
+
+.modal_button {
+	width: 50%;
+	display: flex;
+	margin-top: 18px;
+	position: relative;
+	left: 86px;
+}
+
+.modal_delMem p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.modal_delMem h3 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+/* 탈퇴 잠깐!h3 div */
+.delMemberAll>h3 {
+	margin-bottom: 15px;
+}
+
+/* 탈퇴 설명 div */
+.delMember {
+	margin-bottom: 20px;
+}
+
+.delMemberBg {
+	background-color: #20C997;
+	opacity: 0.15;
+	width: 550px;
+	height: 110px;
+	border-radius: 15px;
+}
+
+.delMemContent {
+	position: relative;
+	right: 527px;
+}
+
+.delMember {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.delMember h3 {
+	font-size: 18px;
+	margin-bottom: 14px;
+}
+
+.delMember p {
+	line-height: 21px;
+}
+
+/* 탈퇴, 취소 버튼 */
+.delMemButton {
+	width: 100%;
+	align-items: start;
+	display: flex;
+	align-items: top;
+	justify-content: left;
+	margin-top: 25px;
+}
+
+.delBtn {
+	position: relative;
+	display: inline-block;
+	margin-right: 6px;
+	margin-bottom: 20px;
+	padding: 7px 16px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #8F8F8F;
+	background: transparent;
+	cursor: pointer;
+	transition: ease-out 0.2s;
+	border: 2px solid #8F8F8F;
+	border-radius: 100px;
+}
+
+.delBtn:hover {
+	color: white;
+	background-color: #8F8F8F;
+}
+
+.delBtn:active {
+	transform: scale(0.9);
+}
+
+.delMem {
+	background-color: #20C997 !important;
+	color: white !important;
+	border: 2px solid #20C997 !important;
+}
+
+.delMem:hover {
+	background-color: white !important;
+	color: #20C997 !important;
+	border: 2px solid #20C997 !important;
+}
+
+/* 오른쪽 구매내역 section */
+/* 전체 */
+section {
+	display: flex;
+}
+
+.mypageMain {
+	/* border: 1px solid lightcoral; */
+	width: 1050px;
+	height: auto;
+}
+
+.mypageMainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.mypageMainHeader>h3 {
+	font-size: 23px;
+	color: #313030;
+}

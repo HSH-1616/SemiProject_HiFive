@@ -1,0 +1,7 @@
+src/main/webapp/WEB-INF/classes/
+src/main/resources/
+.dbeaver
+src/main/webapp/images/
+src/main/webapp/upload/
+.DS_Store
+../.DS_Store

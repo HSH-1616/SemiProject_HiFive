@@ -1,0 +1,113 @@
+/* 확인, 취소 버튼 */
+.pwdButton {
+	width: 100%;
+	align-items: start;
+	display: flex;
+	align-items: top;
+	justify-content: left;
+	margin-top: 23px;
+}
+
+.pwdButton button {
+	position: relative;
+	display: inline-block;
+	margin-right: 6px;
+	margin-bottom: 20px;
+	padding: 7px 16px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #8F8F8F;
+	background: transparent;
+	cursor: pointer;
+	transition: ease-out 0.2s;
+	border: 2px solid #8F8F8F;
+	border-radius: 100px;
+}
+
+.pwdButton>button:hover {
+	color: white;
+	background-color: #8F8F8F;
+}
+
+.pwdButton button:active {
+	transform: scale(0.9);
+}
+
+.pwdUpdate {
+	background-color: #20C997 !important;
+	color: white !important;
+	border: 2px solid #20C997 !important;
+}
+
+.pwdUpdate:hover {
+	background-color: white !important;
+	color: #20C997 !important;
+	border: 2px solid #20C997 !important;
+}
+
+/* 회원정보 관리 div */
+.pwdAll {
+	margin-bottom: 40px;
+}
+
+/* 패스워드 입력창 */
+.card {
+	width: 190px;
+	height: 100px;
+}
+
+.form {
+	padding-top: 15px;
+}
+
+.input {
+	width: 350px;
+	background-color: white;
+	color: #242424;
+	padding-left: 12px;
+	height: 40px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	line-height: 1.15;
+	border: 2px solid #eee;
+}
+
+.input::placeholder {
+	color: #313030;
+	font-size: 14px;
+}
+
+.input:focus {
+	border: 2px solid #20C997;
+}
+
+.input:hover {
+	border: 2px solid #20C997;
+}
+
+/* 오른쪽 구매내역 section */
+/* 전체 */
+section {
+	display: flex;
+}
+
+.mypageMain {
+	/* border: 1px solid lightcoral; */
+	width: 1050px;
+	height: auto;
+}
+
+.mypageMainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.mypageMainHeader>h3 {
+	font-size: 23px;
+	color: #313030;
+}

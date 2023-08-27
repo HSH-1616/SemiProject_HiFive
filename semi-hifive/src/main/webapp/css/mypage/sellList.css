@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+/* *****모달창 스타일***** */
+        .modal_delMem {
+            position: absolute;
+            background-color: #fff;
+            border-radius: 20px;
+            width: 350px;
+            height: 250px;
+            padding: 15px;
+        }
+
+        .modal_delMem button {
+            display: block;
+            width: 80px;
+            margin: 0 auto;
+        }
+
+        .modal {
+            border-radius: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .modal .bg {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .trashIcon {
+            background-color: #20C997;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            position: relative;
+            left: 145px;
+        }
+
+        .modal_button {
+            width: 50%;
+            display: flex;
+            margin-top: 18px;
+            position: relative;
+            left: 86px;
+        }
+
+        .modal_delMem p {
+            text-align: center;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .modal_delMem h3 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .modalBtn {
+            position: relative;
+            display: inline-block;
+            margin-right: 6px;
+            margin-bottom: 20px;
+            padding: 7px 16px;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: #8F8F8F;
+            background: transparent;
+            cursor: pointer;
+            transition: ease-out 0.2s;
+            border: 1px solid #8F8F8F;
+            border-radius: 100px;
+        }
+
+        .modalBtn:hover {
+            color: white;
+            background-color: #8F8F8F;
+            border: #8F8F8F 1px solid;
+        }
+
+        .modalBtn:active {
+            transform: scale(0.9);
+        }
+
+
+        /* *****판매내역 상단버튼 div***** */
+        .buttonAll button {
+            position: relative;
+            display: inline-block;
+            margin-right: 5px;
+            margin-bottom: 20px;
+            padding: 6px 15px;
+            text-align: center;
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: #8F8F8F;
+            background: transparent;
+            cursor: pointer;
+            transition: ease-out 0.2s;
+            border: 1px solid #8F8F8F;
+            border-radius: 100px;
+        }
+
+        button:hover {
+            color: white;
+            background-color: #20C997;
+            border: 1px solid #20C997;
+        }
+
+        button:active {
+            transform: scale(0.9);
+        }
+
+        button.nowButton {
+            color: white;
+            background-color: #20C997;
+            border: 1px solid #20C997;
+            font-weight: 700;
+        }
+
+        /* *****페이지 버튼***** */
+        .pageAll {
+            /* border: 1px solid saddlebrown; */
+            /* margin-top: 20px; */
+            margin-bottom: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+
+        .page li {
+            display: inline;
+        }
+
+        .page li a {
+            color: #313030;
+            float: left;
+            margin: 5px;
+            padding: 5px 10px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .page li a:active {
+            transform: scale(0.9);
+
+        }
+
+        .page li a:hover:not(.nowPage) {
+            background-color: #eeeeee;
+            /* color: white; */
+            border-radius: 7px;
+        }
+
+        .nowPage {
+            background-color: #20C997;
+            border-radius: 7px;
+            color: white !important;
+        }
+
+        /* *****오른쪽 판매내역 section***** */
+        /* 전체 */
+        section {
+            display: flex;
+        }
+
+        .mypageMain {
+            /* border: 1px solid lightcoral; */
+            width: 1050px;
+            height: auto;
+        }
+
+        .mypageMainHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .mypageMainHeader>h3 {
+            font-size: 23px;
+            color: #313030;
+        }
+
+        /* *****판매내역 목록 div***** */
+        .productAll {
+            margin-bottom: 40px;
+        }
+
+        .product {
+            /* border: 1px solid palevioletred; */
+            height: 160px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .product img {
+            width: 160px;
+            height: 160px;
+            border: 1px solid #eee;
+        }
+
+        .proContent {
+            padding-top: 3px;
+            padding-left: 20px;
+            width: 825px;
+        }
+
+        .proContent>h3 {
+            font-size: 25px;
+        }
+
+        .aTag {
+            text-decoration: none;
+            color: #313030;
+        }
+
+        .aTag:hover {
+            text-decoration: underline;
+            text-underline-position: under;
+        }
+
+        .contentMargin {
+            margin-top: 6px;
+            margin-bottom: 43px;
+            height: 60px;
+        }
+
+        .productTitle {
+            font-size: 21px;
+        }
+
+        .grayFont {
+            color: #afafaf;
+            font-weight: 400;
+        }
+
+        /* *****찜수, 조회수***** */
+        .count {
+            position: relative;
+            width: 150px;
+            height: 20px;
+            top: 133px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+
+        .count span {
+            color: #8F8F8F;
+            padding-left: 2px;
+        }
+
+        .count ion-icon {
+            color: #8F8F8F;
+        }
+
+        .viewIcon {
+            padding-left: 10px;
+            padding-right: 1px;
+            padding-bottom: 1px;
+        }
+
+        .interestIcon {
+            padding-bottom: 2px;
+        }
+
+        /* *****수정, 삭제 버튼***** */
+        .updateDelete {
+            width: 100%;
+            align-items: start;
+            display: flex;
+            align-items: top;
+            justify-content: right;
+        }
+
+        .updateDelete>button {
+            margin-left: 5px;
+            padding: 5px 10px 5px 10px;
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: #8F8F8F;
+            background: transparent;
+            cursor: pointer;
+            transition: ease-out 0.2s;
+            border: 1px solid #8F8F8F;
+            border-radius: 100px;
+        }
+
+        .updateDelete>button:hover {
+            color: white;
+            background-color: #8F8F8F;
+            /* border: 1px solid #20C997; */
+        }
+
+        .updateDelete>button:active {
+            transform: scale(0.9);
+        }
+
+        /* *****판매중, 예약중, 판매완료 select***** */
+        .selectNow {
+            display: flex;
+            justify-content: end;
+            position: relative;
+            top: 100px;
+            margin-left: 10px;
+        }
+		
+		.selectIng{
+		 	border: 2px solid #20C997;
+			color: #20C997;
+            background-color: white;
+		}
+		
+		.selectRes{
+		 	border: 2px solid #FFD800;
+			color: #FFD800;
+            background-color: white;
+		}
+		
+		.selectSol{
+		 	border: 2px solid #cccccc;
+			color: #cccccc;
+            background-color: white;
+		}
+		
+        .selectNow>select {
+            padding: 7px 33px 7px 16px;
+
+            display: inline-block;
+
+            background: url(/semi-hifive/images/mypage/selectArrow.png) no-repeat right 50%;
+            /* 화살표 위치 */
+            background-size: 30px;
+            /* 화살표 크기 */
+            /* background-color: #20C997; */
+
+            border-radius: 30px;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            font-size: 16px;
+            font-weight: 700;
+            outline: none;
+        }

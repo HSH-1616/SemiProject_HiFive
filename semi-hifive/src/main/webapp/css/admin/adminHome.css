@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+		.sidebar{
+            border: 0;
+            background-color: #2B3856;
+            display: block;
+  
+        	position: fixed;
+  			width: 20%;
+  			height: 100vh;
+ 
+  			font-size: 0.65em;
+        }
+
+    	
+    	.info{
+    		 	position: relative;
+ 			 	width: 80%;
+  				float: right;
+  				height: 100vh;
+    	}
+    	
+        .accordion-button{
+            font-size: 25px;
+        }
+
+        .accordion-body{
+            font-size: 20px;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;   
+        }
+        
+        
+        #search-userId{
+        	display:flex;
+        	justify-content: flex-end;
+        	margin-top: 20px;
+        }
+        
+		a {
+		  text-decoration: none;
+		  color:black;
+		}
+		
+		a:visited { 
+			color:black; 
+		}
+		
+		.front{
+			display: flex;
+			justify-content: space-around;
+		}

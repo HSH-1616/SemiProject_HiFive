@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* 왼쪽 section(카테고리) */
+.pageChoice {
+	color: #20C997 !important;
+	font-weight: 700;
+}
+
+.mypageCategory {
+	/* border: 1px solid darkblue; */
+	width: 220px;
+	height: 600px;
+}
+
+.mypageCategory a {
+	text-decoration: none;
+	color: #313030;
+}
+
+.mypage {
+	margin-bottom: 30px;
+}
+
+.myInfo {
+	height: 120px;
+	margin-bottom: 25px;
+}
+
+.myInfo>h3 {
+	color: #313030
+}
+
+.myprofileInfo {
+	height: 90px;
+	margin-bottom: 25px;
+}
+
+.myprofileInfo>h3 {
+	color: #313030
+}
+
+.mypageAll {
+	font-size: 16px;
+	color: #8F8F8F !important;
+}
+
+.mypageAll:hover {
+	font-size: 16px;
+	color: #20C997 !important;
+	font-weight: 700;
+}
+
+.mypageMargin {
+	margin-bottom: 14px;
+}
+
+/* 내 상점 가기 */
+.goToStore {
+	font-size: 18px;
+	color: #20C997;
+}
+
+.goToStoreIcon {
+	font-size: 20px;
+	color: #20C997;
+	padding-right: 3px;
+}
+
+.goToStoreBtn {
+	background-color: white;
+	border: #20C997 2px solid;
+	border-radius: 10px;
+	width: 150px;
+	height: 40px;
+	/* margin-top: 130px; */
+	margin-bottom: 30px;
+	cursor: pointer;
+	transition: ease-out 0.2s;
+}
+
+.goToStoreDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.goToStoreBtn:active {
+	transform: scale(0.9);
+}

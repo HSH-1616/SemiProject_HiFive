@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+	/* 인증번호랑 인증 부분 */
+	.findPwdClass1 {
+		display: flex;
+		justify-content: center;	
+		align-items: center;
+		margin-top:50px;
+	}
+
+	/* 새로운패드워드와, 새로운패스워드 확인 부분 */
+	.findPwdClass2{
+		display: flex;
+		flex-direction: column;	
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* 인증번호가 일치한지 안하는지 나오는문구 */
+	#findPwdAuthId{
+		margin-left: 470px;
+	}
+
+	/* 인증번호 입력창 */
+	#findPwdAuth{
+		width: 280px;
+		background-color: white;
+		color: #242424;
+		padding-left: 12px;
+		height: 30px;
+		border-radius: 10px;
+		outline: none;
+		border: none;
+		line-height: 1.15;
+		border: 2px solid #cfcfcf;
+	}
+
+	/* 새로운패스워드 + 확인 입력창 */
+	#newPassword,#newPasswordCheck {
+		width: 280px;
+		background-color: white;
+		color: #242424;
+		padding-left: 12px;
+		height: 30px;
+		border-radius: 10px;
+		outline: none;
+		border: none;
+		line-height: 1.15;
+		border: 2px solid #cfcfcf;
+		margin-right: 62px;
+		margin-top: 10px;
+	}
+
+	/* 인증, 변경 버튼 */
+	#findPwdAuthButton,#newPasswordButton{
+		width: 4%;
+		height: 30px;
+		box-sizing: border-box;
+		background-color: #20c997;
+		font-size: 14px;
+		font-weight: 700;
+		color: white;
+		border-style: none;
+		border-radius: 15px;
+		cursor: pointer;
+		margin: 5px;
+		
+	}
+
+	/* 인증, 변경 버튼에 올렸을때 */
+	#findPwdAuthButton:hover,#newPasswordButton:hover{
+		width: 4%;
+		height: 30px;
+		box-sizing: border-box;
+		background-color: white;
+		font-size: 14px;
+		font-weight: 700;
+		border: 1px solid #20c997 !important;
+		color: #20c997;
+		border-style: none;
+		border-radius: 15px;
+	}
+
+	/* 변경 버튼 style */
+	#newPasswordButton{
+		align-items: center;
+		margin-left: 700px;
+	}
+	
+	footer{
+		padding-bottom: 300px;
+	}

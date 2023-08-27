@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* 페이지 본문 상단 글씨 */
+.ServicetHead{
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+/* 게시글 제목 부분 */
+div.writeTitle{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.titleGroup{
+    margin-left: 10px;
+}
+/* 게시판 카테고리 선택 */
+.titleSelect{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* 문의글 카테고리 선택 */
+.QASelect{
+	display:none;
+    margin-right: 10px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* 글제목 */
+#baordTitle{
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    width: 800px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* 첨부파일 부분 */
+/* 첨부파일 아이콘 */
+.uploadIcon{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.upfile{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.upfile>input{
+    margin-right: 680px;
+}
+
+/* 문의글 작성 부분 */
+textarea.writeContent{
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+    height: 500px;
+}
+
+div.writeBody{
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+
+
+
+/* 완료, 취소 버튼 */
+.serviceInsertBtn{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.serviceSubmitBtn{
+    width: 100px;
+    background-color: #20C997;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    cursor: pointer;
+}
+.serviceSubmitBtn:after{
+    content: "";
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.serviceSubmitBtn:hover:after{
+    animation: ripple_401 1s ease-out;
+}
+@keyframes ripple_401 {
+    0% {
+        width: 5px;
+        height: 5px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+}
+.serviceCancelBtn{
+    width: 100px;
+    background-color: #636363;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.serviceCancelBtn:after{
+    content: "";
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.serviceCancelBtn:hover:after{
+    animation: ripple_401 1s ease-out;
+}
