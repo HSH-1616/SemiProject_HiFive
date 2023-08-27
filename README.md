@@ -1,4 +1,4 @@
-<img src="http://14.36.141.71:10005/developers_finalproject/images/common/logo.png" style="width:400px; height:160px;"/>
+<img src="http://14.36.141.71:10005/semi-hifive/images/common/hifiveLogo.png" style="width:200px; height:80px;"/>
 
 <details>
  <summary style="font-size:22px; font-weight:500;">INDEX</summary>
@@ -17,30 +17,30 @@
 
 ## INFORMATION
 
-<img src="https://github.com/HSH-1616/FinalProject_Developers/blob/main/developers_finalproject/src/test/readme.JPG"/>
+<img src="semi-hifive/src/main/webapp/views/common/readme.png"/>
 
-- #### 구디아카데미 파이널 프로젝트
-- #### 프로젝트 기간 : 2023-07-12 ~ 2023-08-20
-- #### 참여 인원 : 6명
-- #### 프로젝트 주제 : 국내 여행을 간편하게 즐기기 위해 관광지, 숙박업소, 맛집에 대한 정보를 한번에 조회 할수 있는 웹사이트
+- #### 구디아카데미 세미 프로젝트
+- #### 프로젝트 기간 : 2023-05-25 ~ 2023-06-29
+- #### 참여 인원 : 5명
+- #### 프로젝트 주제 : 사용자간 직접 거래를 할수 있는 중고 거래 사이트
 
 <br>
 
 ## MAIN FUNTION
 
-- #### 공공데이터 오픈API를 사용해 데이터 불러오기
-- #### 유명 관광지 정보 제공, 나만의 여행 일정 생성
-- #### 숙박업소 정보 제공, 예약 결제 서비스
-- #### 맛집 정보 제공 , 맛집 추천 서비스
-- #### 관리자 페이지 조회,승인,수정 기능
+- #### 중고 거래 상품 CRUD
+- #### 마이페이지 거래 내역, 회원 정보 관리
+- #### 고객센터 공지사항, 신고 기능
+- #### 상품 카테고리별 조회
+- #### 최근검색어, 실시간 인기 검색어
 
 <br>
 
 ## SITE
 
-### 배포 사이트 : [Developers](http://14.36.141.71:10005/developers_finalproject/)
+### 배포 사이트 : [HiFive](http://14.36.141.71:10005/semi-hifive/index.jsp)
 
-### 참고 사이트 : [에어비앤비: 여행은 살아보는거야](https://www.airbnb.co.kr/)
+### 참고 사이트 : [번개장터](https://m.bunjang.co.kr/)
 
 <br>
 
@@ -51,7 +51,7 @@
 <div>
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white"> 
-<img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=spring boot&logoColor=white">
+<img src="https://img.shields.io/badge/servlet-007396?style=for-the-badge&logo=java&logoColor=white">
 <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black">
 <img src="https://img.shields.io/badge/jsp-007396?style=for-the-badge&logo=java&logoColor=black">
 </div>
@@ -71,18 +71,9 @@
 **API**
 
 <div>
-<img src="https://img.shields.io/badge/kakao login-FFCD00?style=for-the-badge&logo=kakao&logoColor=black">
-<img src="https://img.shields.io/badge/kakao map-FFCD00?style=for-the-badge&logo=kakao&logoColor=black">
-<img src="https://img.shields.io/badge/kakao message-FFCD00?style=for-the-badge&logo=kakao&logoColor=black">
+<img src="https://img.shields.io/badge/email-20C997?style=for-the-badge&logo=&logoColor=black">
+<img src="https://img.shields.io/badge/kakao address-FFCD00?style=for-the-badge&logo=kakao&logoColor=black">
 <img src="https://img.shields.io/badge/kakao pay-FFCD00?style=for-the-badge&logo=kakao&logoColor=black">
-<img src="https://img.shields.io/badge/kakao chat-FFCD00?style=for-the-badge&logo=kakao&logoColor=black">
-<br>
-<img src="https://img.shields.io/badge/naver login-03C75A?style=for-the-badge&logo=naver&logoColor=white">
-<img src="https://img.shields.io/badge/google login-4285F4?style=for-the-badge&logo=google&logoColor=black">
-<img src="https://img.shields.io/badge/werather API-2C39BD?style=for-the-badge&logo=
-cloudways&logoColor=white">
-<img src="https://img.shields.io/badge/inisis pay-B31312?style=for-the-badge&logo=&logoColor=black">
-<img src="https://img.shields.io/badge/공공데이터 API-B31312?style=for-the-badge&logo=&logoColor=white">
 </div>
 
 </br>
@@ -91,7 +82,7 @@ cloudways&logoColor=white">
 
 <div>
 <img src="https://img.shields.io/badge/visual studio-5c2d91?style=for-the-badge&logo=visual studio&logoColor=white">
-<img src="https://img.shields.io/badge/spring tool suite-6DB33F?style=for-the-badge&logo=spring boot&logoColor=white">
+<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse ide&logoColor=white">
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 <img src="https://img.shields.io/badge/erd cloud-2C39BD?style=for-the-badge&logo=
@@ -102,47 +93,41 @@ googlecloud&logoColor=white">
 
 ## MEMBER
 
-### 🙎‍♂️ 허성현 - 팀장
+### 🙎‍♂️ 최주영 - 팀장
 
 #### ✅ 주요 기능 구현
 
-- 숙박업소 CRUD, 예약 기능
-- 마이페이지 결제 내역
-- 관리자 페이지 결제관리
-
-### 🙎‍♂️강민기
-
-#### ✅ 주요 기능 구현
-
-- 로그인 기능
-- 관광지 리스트,상세 페이지
-- 관리자 페이지 관광지 관리
+- 중고상품 등록,수정
+- 회원가입,로그인
+- 관리자 페이지
 
 ### 🙎‍♂️ 김찬은
 
 #### ✅ 주요 기능 구현
 
-- 여행 일정 생성
-- 마이페이지 찜하기, 리뷰 불러오기
+- 상품 카테고리
+- 최근 본 상품
 
-### 🙎‍♂️ 윤지환
-
-#### ✅ 주요 기능 구현
-
-- 맛집 상세 페이지, 댓글 기능
-- 관리자 페이지 맛집 관리
-
-### 🙎‍♂️ 조장흠
+### 🙎‍♂️ 김현영
 
 #### ✅ 주요 기능 구현
 
-- 맛집 리스트
-- 마이페이지 회원 정보 수정
+- 마이 페이지 쇼핑 정보
+- 마이 페이지 내 정보 관리
+- 메인 페이지
 
-### 🙎‍♂️ 홍승우
+### 🙎‍♂️ 이은지
 
 #### ✅ 주요 기능 구현
 
-- 공지사항 CRUD, 댓글 기능
-- 커뮤니티 CRUD, 댓글 기능
-- 카카오 챗봇 API
+- 고객센터 공지사항, 자주하는 질문
+- 고객센터 1:1문의
+- 거래 내역, 판매글 신고
+
+### 🙎‍♂️ 허성현
+
+#### ✅ 주요 기능 구현
+
+- 중고상품 상세페이지, 결제
+- 회원 상점페이지
+- 상품검색 최근 검색어, 실시간 검색어
